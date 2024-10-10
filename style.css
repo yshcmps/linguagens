@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(255, 191, 210);
+    color: rgb(189, 24, 101);
+    text-align: center;
+}
+
+#rosa{
+    border-radius: 10px;
+    width: 600px;
+}
+
+#roxo{
+    border-radius: 10px; 
+    width: 600px;
+    height:500px;
+}
+
+#verde{
+    border-radius: 10px; 
+}
+
+#azul{
+    border-radius: 10px; 
+}
+
+#vermelho{
+    border-radius: 10px; 
+}
+
+#amarelo{
+    border-radius: 10px;
+}

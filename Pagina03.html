@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt=BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Java</title>
+</head>
+<body>
+    <nav>
+        <a href="./index.html">01</a>
+        <a href="./Pagina02.html">02</a>
+        <a href="./Pagina03.html">03</a>
+        <a href="./Pagina04.html">04</a>
+    </nav>
+    <h2>Linguagem de programação C++</h2>
+    <p>A linguagem é baseada em C, mas adiciona recursos de programação orientada a objetos, permitindo que os desenvolvedores organizem melhor o código e reutilizem componentes.
+
+        Um dos principais conceitos do C++ é a programação orientada a objetos (POO), que se baseia em quatro pilares: encapsulamento, herança, polimorfismo e abstração. O encapsulamento permite que os dados e comportamentos sejam agrupados em classes, protegendo a integridade dos dados. A herança permite que uma classe derive características de outra, promovendo a reutilização de código. O polimorfismo permite que uma única função ou método opere de diferentes maneiras, dependendo do objeto que o invoca. A abstração permite que os desenvolvedores se concentrem em interfaces e funcionalidades essenciais, ocultando a complexidade subjacente.</p>
+        <br>
+        <p>Em resumo, C++ é uma linguagem poderosa e versátil que combina recursos de programação de baixo nível e alto nível. Seu suporte à programação orientada a objetos, programação genérica e programação funcional, juntamente com a eficiência em gerenciamento de memória, torna-a uma escolha popular para desenvolvedores que buscam controle e flexibilidade na construção de aplicações complexas. Com uma comunidade ativa e uma vasta gama de bibliotecas disponíveis, C++ continua a ser uma linguagem relevante e amplamente utilizada no desenvolvimento de software moderno.</p>
+        <br>
+        <img id="amarelo" src="./arduino.jpg" alt="Exemplo da IDE ARDUÍNO">
+  <br>
+  <h2>Exemplo de código C++ da IDE ARDUÍNO</h2>
+ <pre> //
+    int num = 0; // declara uma variável num do tipo inteiro
+    
+    void setup()
+    {
+      pinMode(A0, INPUT); // define o pino A0 como entrada analógica
+      Serial.begin(9600); // configura a comunicação serial com taxa 
+                          // de transição de dados com 96000 bits por segundo
+      pinMode(12, OUTPUT); // define opino 12 como saida digital
+    
+      num = 0;
+    }
+    
+    void loop()
+    {
+      num += 0; // atribui o valor 0 para a variável num
+      num += analogRead(A0); // acrescenta o valor da entrada analógica A0 na variávelnum
+      Serial.println(num); // imprime na porta serialo valor da variável num
+      if (num >= 500) { // compara SE a variável num é maior que 500
+        digitalWrite(12, HIGH);// escreve no pino 12 ALTO (HIGH), ou seja, 5V
+      } else {
+        digitalWrite(12, LOW); // escreve no pino 12 BAIXO (LOW), ou seja, 0V
+      }
+      delay(500); // Wait for 500 millisecond(s)
+    }</pre>
+</body>
+</html>
